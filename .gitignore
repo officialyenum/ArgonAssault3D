@@ -2,6 +2,10 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+
+/[Aa]ssets/Standard Assets
+/[Aa]ssets/StarSparrow
+/[Aa]ssets/TerrainSampleAssets
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
