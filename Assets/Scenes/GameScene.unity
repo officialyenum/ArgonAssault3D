@@ -570,8 +570,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 8720618908901119131, guid: 29a450243ae0a427f9b8493785e13668, type: 3}
+  hitVFX: {fileID: 8720618908901119131, guid: 87a2547a7ff1b4424ae09af9f46240fa, type: 3}
   parent: {fileID: 272304069}
   scorePerHit: 15
+  hitPoints: 8
 --- !u!198 &1824222391 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 3422513096206938044, guid: 9acde1ee99c854547b4bdafc78173dc0, type: 3}
