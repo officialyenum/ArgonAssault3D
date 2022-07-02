@@ -220,6 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadDelay: 1
+  explosionVFX: {fileID: 0}
 --- !u!1001 &7886476335716267233
 PrefabInstance:
   m_ObjectHideFlags: 0
