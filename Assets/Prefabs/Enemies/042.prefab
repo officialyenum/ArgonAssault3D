@@ -971,6 +971,7 @@ GameObject:
   - component: {fileID: 6948166266042659904}
   - component: {fileID: 6938098785156601460}
   - component: {fileID: 6276538554191295273}
+  - component: {fileID: 4628598703331935781}
   m_Layer: 0
   m_Name: 042
   m_TagString: Untagged
@@ -1056,10 +1057,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9add10e8b397486c9699848edf1b24c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 8720618908901119131, guid: 29a450243ae0a427f9b8493785e13668, type: 3}
+  deathFX: {fileID: 8720618908901119131, guid: 29a450243ae0a427f9b8493785e13668, type: 3}
   hitVFX: {fileID: 8720618908901119131, guid: 87a2547a7ff1b4424ae09af9f46240fa, type: 3}
   scorePerHit: 15
   hitPoints: 2
+--- !u!65 &4628598703331935781
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6926457883706760480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.865558, y: 4.241986, z: 11.309124}
+  m_Center: {x: 0.00000047683716, y: -0.000006198883, z: -0.0000011920929}
 --- !u!1 &7265950316580440150
 GameObject:
   m_ObjectHideFlags: 0

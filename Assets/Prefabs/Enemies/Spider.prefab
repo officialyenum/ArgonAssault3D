@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 4249174654057809234}
   - component: {fileID: 2097813881734132120}
   - component: {fileID: 7020587806683627894}
+  - component: {fileID: 6258647195515544927}
   m_Layer: 0
   m_Name: Spider
   m_TagString: Untagged
@@ -142,10 +143,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9add10e8b397486c9699848edf1b24c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 0}
-  hitVFX: {fileID: 0}
-  scorePerHit: 10
-  hitPoints: 10
+  deathFX: {fileID: 8720618908901119131, guid: 29a450243ae0a427f9b8493785e13668, type: 3}
+  hitVFX: {fileID: 8720618908901119131, guid: 87a2547a7ff1b4424ae09af9f46240fa, type: 3}
+  scorePerHit: 75
+  hitPoints: 5
+--- !u!65 &6258647195515544927
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440247670260027469}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.147294, y: 3.2459185, z: 10.599532}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &590913394433461818
 GameObject:
   m_ObjectHideFlags: 0
